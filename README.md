@@ -1,3 +1,6 @@
+# Front End of the Full Stack CRUD App
+## Used: React, Spring Boot, MySql Database, Bootstrap 5, Axios Http Library
+
 ## Architecture
 ![Screenshot 2023-01-10 at 4 09 49 PM](https://user-images.githubusercontent.com/86784739/211663304-be8b35c8-0a1f-4bd0-8199-ea3946d1b02e.png)
 
