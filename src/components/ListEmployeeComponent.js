@@ -31,11 +31,14 @@ export const ListEmployeeComponent = () => {
     }
 
   return (
-    <div className='container' style={{"marginTop": "10px"}}>
-        <h2 className='text-center'>List Employees</h2>
+    <div className='container' style={{"marginTop": "80px"}}>
+      <h2 className='text-center'>List Employees</h2>
+      <div className="container d-flex justify-content-center">
         <Link to="/add-employee" className="btn btn-primary mb-3">Add Employee</Link>
-        <div className="container text-center">
-            <table className='table table-bordered table-stripped'>
+      </div>
+        {/* <Link to="/add-employee" className="btn btn-primary mb-3">Add Employee</Link> */}
+        <div className="container text-center d-flex justify-content-center">
+            <table className='table table-bordered table-secondary table-hover table-striped'>
                 <thead>
                   <tr>
                     <th>Employee Id</th>
@@ -54,7 +57,7 @@ export const ListEmployeeComponent = () => {
                               <td>{employee.firstName}</td>
                               <td>{employee.lastName}</td>
                               <td>{employee.emailId}</td>
-                              <td>
+                              <td className='d-flex justify-content-center'>
                                 <Link to={`/edit-employee/${employee.id}`} className="btn btn-primary" style={{"marginRight": "5px"}}>Update</Link>
                                 <button className="btn btn-danger" style={{"marginLeft": "5px"}} onClick={() => deleteEmployee(employee.id)}>Delete</button>
                               </td>
