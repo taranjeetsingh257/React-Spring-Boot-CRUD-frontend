@@ -66,7 +66,7 @@ export const AddEmployeeComponent = () => {
     }
 
   return (
-    <div>
+    <div style={{"margin": "100px"}}>
         <div className="container mt-5">
             <div className="row">
                 <div className="card col-md-6 offset-md-3 offset-md-3">
