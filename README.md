@@ -8,8 +8,6 @@ http://srems.s3-website-us-east-1.amazonaws.com/
 • Created CRUD REST APIs using Spring Boot, used Axios HTTP Library to make REST API calls in React along with Bootstrap 5<br>
 • Deployed Spring Boot Backend on AWS Elastic Beanstalk, MySql Database on AWS RDS and React.js Frontend on AWS S3<br>
 
-## Used: React, Spring Boot, MySql Database, Bootstrap 5, Axios Http Library
-
 ## Homepage
 ![1 front](https://user-images.githubusercontent.com/86784739/211669627-33891db3-aa6f-4d32-9f44-050eb4c186e4.png)
 
