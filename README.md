@@ -1,101 +1,34 @@
 # Front End of the Full Stack CRUD Employee Management App
 
+## Project Summary
+- Developed and deployed a Full Stack employee management application using React, Spring Boot and MySql Database
+- Created CRUD REST APIs using Spring Boot, used Axios HTTP Library to make REST API calls in React along with Bootstrap 5
+- Deployed Spring Boot Backend on AWS Elastic Beanstalk, MySql Database on AWS RDS and React.js Frontend on AWS S3
+
 ## Deployment Link:
 http://srems.s3-website-us-east-1.amazonaws.com/
-
-## Project Summary
-• Developed and deployed a Full Stack employee management application using React, Spring Boot and MySql Database<br>
-• Created CRUD REST APIs using Spring Boot, used Axios HTTP Library to make REST API calls in React along with Bootstrap 5<br>
-• Deployed Spring Boot Backend on AWS Elastic Beanstalk, MySql Database on AWS RDS and React.js Frontend on AWS S3<br>
-
-## Homepage
-![1 front](https://user-images.githubusercontent.com/86784739/211669627-33891db3-aa6f-4d32-9f44-050eb4c186e4.png)
-
-## Click on Add Employee Button
-![2 addemployeebtn](https://user-images.githubusercontent.com/86784739/211669647-b4ce8f38-b50b-4137-bdb0-7bedf610f9d3.png)
-
-## Employee Added To Homepage
-![3 addedemployee](https://user-images.githubusercontent.com/86784739/211669660-fa98f8d3-f880-4e90-bad5-92532a25baf4.png)
-
-## Click on Update Button
-![4 update](https://user-images.githubusercontent.com/86784739/211669670-6d0b5ab5-7b86-41dc-87f4-c9d8a01d29dc.png)
-
-## Updated First Employee
-![5 updated list](https://user-images.githubusercontent.com/86784739/211669675-b26c1835-b939-4a50-a9d7-64995b92a798.png)
-
-## Deleted Second Employee
-![6 deleted second employee](https://user-images.githubusercontent.com/86784739/211669693-be3e1fc1-7166-47b9-ae42-b47c57a7a266.png)
+###### NOTE: Please refer to the screenshots below if the link does not work.<br>
 
 ## Architecture
 ![Screenshot 2023-01-10 at 4 09 49 PM](https://user-images.githubusercontent.com/86784739/211663304-be8b35c8-0a1f-4bd0-8199-ea3946d1b02e.png)
 
-# Getting Started with Create React App
+## 1) Homepage
+![1](https://user-images.githubusercontent.com/86784739/217352915-9252dc92-10ff-4fa0-a5b6-a8d1e60a5e82.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 2) Click on Add Employee Button
+![2](https://user-images.githubusercontent.com/86784739/217352956-3b07139e-cc73-41bf-84c9-a7a5d4b70d50.png)
 
-## Available Scripts
+## 3) Employee Added To Homepage
+![3](https://user-images.githubusercontent.com/86784739/217352957-bea18c4f-e906-44bc-ac49-d15a93f37f36.png)
 
-In the project directory, you can run:
+## 4) Click on Update Button & Update Information (First Employee)
+![4](https://user-images.githubusercontent.com/86784739/217352959-6627283c-5a0a-4705-925e-9b78ca53d6b9.png)
 
-### `npm start`
+## 5) Updated First Employee
+![5](https://user-images.githubusercontent.com/86784739/217352960-7c1ecd9c-5075-4071-a2c8-b28e22b3e939.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 6) Deleted Second Employee
+![6](https://user-images.githubusercontent.com/86784739/217352961-4a9d2467-c349-4b9a-824f-0771900966c9.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 7) API
+![7 Api](https://user-images.githubusercontent.com/86784739/217353348-359094d7-090e-4bf2-9ddc-0420edf2753b.png)
